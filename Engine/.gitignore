@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/engine
+engine.so
+engine.dylib
+engine.dll
+engine.a
+engine.lib
+engine-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

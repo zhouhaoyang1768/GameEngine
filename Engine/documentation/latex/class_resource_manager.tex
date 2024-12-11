@@ -1,0 +1,118 @@
+\doxysection{Resource\+Manager Class Reference}
+\hypertarget{class_resource_manager}{}\label{class_resource_manager}\index{ResourceManager@{ResourceManager}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_resource_manager_a74c7ccec4e312ddcf9deb7c4a990bfad}\label{class_resource_manager_a74c7ccec4e312ddcf9deb7c4a990bfad} 
+{\bfseries this} (\mbox{\hyperlink{class_editor}{Editor}} editor)
+\item 
+\Hypertarget{class_resource_manager_ab08dbf5421b374652f5fdc72d40f2d4c}\label{class_resource_manager_ab08dbf5421b374652f5fdc72d40f2d4c} 
+void {\bfseries create\+Empty\+Project} ()
+\item 
+\Hypertarget{class_resource_manager_a5de862e768f0e5a80a85fbb40b1372f4}\label{class_resource_manager_a5de862e768f0e5a80a85fbb40b1372f4} 
+\mbox{\hyperlink{struct_game_attributes}{Game\+Attributes}} \texorpdfstring{$\ast$}{*} {\bfseries load\+Game\+Attributes} ()
+\item 
+\Hypertarget{class_resource_manager_a02ca39fb5bb0bf5f27760539bf10ab46}\label{class_resource_manager_a02ca39fb5bb0bf5f27760539bf10ab46} 
+void {\bfseries set\+Renderer} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+\Hypertarget{class_resource_manager_a1fea3ee8a988082e7910e1e974e0f190}\label{class_resource_manager_a1fea3ee8a988082e7910e1e974e0f190} 
+void {\bfseries load\+Editor\+Resources} ()
+\item 
+\Hypertarget{class_resource_manager_a3bf62d27c36110f43746cd92cf4672d0}\label{class_resource_manager_a3bf62d27c36110f43746cd92cf4672d0} 
+void {\bfseries load\+Images} ()
+\item 
+\Hypertarget{class_resource_manager_ac928e3e48aa10e116024a5383305bff5}\label{class_resource_manager_ac928e3e48aa10e116024a5383305bff5} 
+void {\bfseries load\+Audio} ()
+\item 
+\Hypertarget{class_resource_manager_a50d583aa03272a03edc00d9ca1b227ff}\label{class_resource_manager_a50d583aa03272a03edc00d9ca1b227ff} 
+void {\bfseries load\+Scenes} ()
+\item 
+\Hypertarget{class_resource_manager_acc048ad7156adbc6e405f4e353ae9ac4}\label{class_resource_manager_acc048ad7156adbc6e405f4e353ae9ac4} 
+void {\bfseries load\+Scripts} ()
+\item 
+\Hypertarget{class_resource_manager_a77e530ff4450d57cf009a9e94aa75dc8}\label{class_resource_manager_a77e530ff4450d57cf009a9e94aa75dc8} 
+void {\bfseries load\+Font} (string name, int size)
+\item 
+\Hypertarget{class_resource_manager_a86af99719bf0ecbd58cab9fa1dce6f1c}\label{class_resource_manager_a86af99719bf0ecbd58cab9fa1dce6f1c} 
+UI {\bfseries Create\+Text\+UI} (string text, string font, int size, SDL\+\_\+\+Color color, int x, int y, bool center)
+\item 
+\Hypertarget{class_resource_manager_ae300020616238dae251e141c9b41ea40}\label{class_resource_manager_ae300020616238dae251e141c9b41ea40} 
+UI {\bfseries Create\+Text\+Button} (string text, string font, int size, SDL\+\_\+\+Color default\+\_\+color, SDL\+\_\+\+Color hover\+\_\+color, int x, int y, void delegate(Interp\+Context) callback, bool center, string script)
+\item 
+\Hypertarget{class_resource_manager_a4116a866b9e893d2cf4c046ec960bfc1}\label{class_resource_manager_a4116a866b9e893d2cf4c046ec960bfc1} 
+UI {\bfseries parse\+UI} (JSONValue ui)
+\item 
+\Hypertarget{class_resource_manager_a96b9153547fb6f7ce4f3f9fbd109c218}\label{class_resource_manager_a96b9153547fb6f7ce4f3f9fbd109c218} 
+void {\bfseries parse\+Entity} (\mbox{\hyperlink{struct_scene}{Scene}} \texorpdfstring{$\ast$}{*}scene, JSONValue j)
+\item 
+\Hypertarget{class_resource_manager_aed817e3593c0992d8dabd74de2138083}\label{class_resource_manager_aed817e3593c0992d8dabd74de2138083} 
+\mbox{\hyperlink{struct_scene}{Scene}} \texorpdfstring{$\ast$}{*} {\bfseries parse\+Scene} (string name)
+\item 
+\Hypertarget{class_resource_manager_ac852ff6f79aab68ca38f064a9951d52f}\label{class_resource_manager_ac852ff6f79aab68ca38f064a9951d52f} 
+void {\bfseries Play\+Audio} (string name)
+\item 
+\Hypertarget{class_resource_manager_a28df6c84a4ede493e84198a465e56274}\label{class_resource_manager_a28df6c84a4ede493e84198a465e56274} 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} {\bfseries Create\+Text} (string text, string font\+\_\+name, int size, SDL\+\_\+\+Color color, SDL\+\_\+\+Rect \texorpdfstring{$\ast$}{*}location)
+\item 
+\Hypertarget{class_resource_manager_ab89c05d9ec5989c7929e23528737bb02}\label{class_resource_manager_ab89c05d9ec5989c7929e23528737bb02} 
+void {\bfseries Free\+Text} (SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*}tex)
+\item 
+\Hypertarget{class_resource_manager_add4eb3396afc9b59fd75d78ed37f4738}\label{class_resource_manager_add4eb3396afc9b59fd75d78ed37f4738} 
+void {\bfseries unload\+All} ()
+\item 
+\Hypertarget{class_resource_manager_afe97ba9dbb8b0acf9ce9097e670b3b41}\label{class_resource_manager_afe97ba9dbb8b0acf9ce9097e670b3b41} 
+void {\bfseries save} (\mbox{\hyperlink{struct_scene}{Scene}} \texorpdfstring{$\ast$}{*}scene)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_resource_manager_a4a5cceb13daa2cd9f0cc73f6e077e50a}\label{class_resource_manager_a4a5cceb13daa2cd9f0cc73f6e077e50a} 
+const string {\bfseries asset\+\_\+path} = "{}assets/"{}
+\item 
+\Hypertarget{class_resource_manager_a00362916c69e589b982de0631581538b}\label{class_resource_manager_a00362916c69e589b982de0631581538b} 
+const string {\bfseries image\+\_\+path} = asset\+\_\+path \texorpdfstring{$\sim$}{\string~} "{}images/"{}
+\item 
+\Hypertarget{class_resource_manager_a9727b2d1eebc30476bbb06d7e4d08967}\label{class_resource_manager_a9727b2d1eebc30476bbb06d7e4d08967} 
+const string {\bfseries audio\+\_\+path} = asset\+\_\+path \texorpdfstring{$\sim$}{\string~} "{}audio/"{}
+\item 
+\Hypertarget{class_resource_manager_a2e03519d1ae26a73feb0139799945f93}\label{class_resource_manager_a2e03519d1ae26a73feb0139799945f93} 
+const string {\bfseries scene\+\_\+path} = asset\+\_\+path \texorpdfstring{$\sim$}{\string~} "{}scenes/"{}
+\item 
+\Hypertarget{class_resource_manager_ac3dfbdcfd1d46d426b05140bee80ea8d}\label{class_resource_manager_ac3dfbdcfd1d46d426b05140bee80ea8d} 
+const string {\bfseries font\+\_\+path} = asset\+\_\+path \texorpdfstring{$\sim$}{\string~} "{}fonts/"{}
+\item 
+\Hypertarget{class_resource_manager_a12aed70961e17ea41188737c0af2d2c0}\label{class_resource_manager_a12aed70961e17ea41188737c0af2d2c0} 
+const string {\bfseries script\+\_\+path} = asset\+\_\+path \texorpdfstring{$\sim$}{\string~} "{}scripts/"{}
+\item 
+\Hypertarget{class_resource_manager_ad4ea425dfa42576a240b46539c8c505b}\label{class_resource_manager_ad4ea425dfa42576a240b46539c8c505b} 
+const string {\bfseries game\+\_\+attributes\+\_\+path} = asset\+\_\+path \texorpdfstring{$\sim$}{\string~} "{}game\+\_\+attributes.\+json"{}
+\item 
+\Hypertarget{class_resource_manager_a9c8ceb6493f5aeb3b32deca6bd302286}\label{class_resource_manager_a9c8ceb6493f5aeb3b32deca6bd302286} 
+SDL\+\_\+\+Surface \texorpdfstring{$\ast$}{*} {\bfseries surface}
+\item 
+\Hypertarget{class_resource_manager_af11b17519f9597e456bb4d934993c6a0}\label{class_resource_manager_af11b17519f9597e456bb4d934993c6a0} 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} {\bfseries texture}
+\item 
+\Hypertarget{class_resource_manager_a092e488aa30c38de4fbe94e00cb9e3ee}\label{class_resource_manager_a092e488aa30c38de4fbe94e00cb9e3ee} 
+Mix\+\_\+\+Chunk \texorpdfstring{$\ast$}{*} {\bfseries audio}
+\item 
+\Hypertarget{class_resource_manager_a178a34ee6625bc871e701ff1df56d3ac}\label{class_resource_manager_a178a34ee6625bc871e701ff1df56d3ac} 
+TTF\+\_\+\+Font \texorpdfstring{$\ast$}{*} {\bfseries font}
+\item 
+\Hypertarget{class_resource_manager_a7a17634647235b4ffc954169ee244a8e}\label{class_resource_manager_a7a17634647235b4ffc954169ee244a8e} 
+string\mbox{[}string\mbox{]} {\bfseries script}
+\item 
+\Hypertarget{class_resource_manager_a2847d9f3ef399c2bd8d7ff7b61550c83}\label{class_resource_manager_a2847d9f3ef399c2bd8d7ff7b61550c83} 
+JSONValue\mbox{[}string\mbox{]} {\bfseries scene}
+\item 
+\Hypertarget{class_resource_manager_a1d8e05310283c3d2437cba2a81b21a05}\label{class_resource_manager_a1d8e05310283c3d2437cba2a81b21a05} 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} {\bfseries text\+\_\+texture}
+\item 
+\Hypertarget{class_resource_manager_a0a213b3b0cb9c45f17220e7d5d666d37}\label{class_resource_manager_a0a213b3b0cb9c45f17220e7d5d666d37} 
+\mbox{\hyperlink{class_editor}{Editor}} {\bfseries editor}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+source/resourcemanager.\+d\end{DoxyCompactItemize}

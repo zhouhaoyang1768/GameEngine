@@ -1,0 +1,85 @@
+\doxysection{Button Class Reference}
+\hypertarget{class_button}{}\label{class_button}\index{Button@{Button}}
+Inheritance diagram for Button\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_button}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_button_a986a3d1b4617af92060625dc85fbce29}\label{class_button_a986a3d1b4617af92060625dc85fbce29} 
+void {\bfseries delegate} (Interp\+Context) callback
+\item 
+\Hypertarget{class_button_a2ad620ed80b8e66cf3348e37fe4dd4ec}\label{class_button_a2ad620ed80b8e66cf3348e37fe4dd4ec} 
+{\bfseries this} (SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*}texture, SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*}hover\+\_\+tex, SDL\+\_\+\+Rect \texorpdfstring{$\ast$}{*}location, void delegate(Interp\+Context) callback, bool \texorpdfstring{$\ast$}{*}active, int x=0, int y=0, string text="{}"{}, string font="{}"{}, int size=0, string script="{}"{}, SDL\+\_\+\+Color default\+\_\+color=SDL\+\_\+\+Color(0, 0, 0), SDL\+\_\+\+Color hover\+\_\+color=SDL\+\_\+\+Color(0, 0, 0))
+\item 
+\Hypertarget{class_button_a23e13aaf291a008400a66109088fcd21}\label{class_button_a23e13aaf291a008400a66109088fcd21} 
+JSONValue {\bfseries dump} ()
+\item 
+\Hypertarget{class_button_a2ce1687ece50053e1c0722f2cf84147e}\label{class_button_a2ce1687ece50053e1c0722f2cf84147e} 
+void {\bfseries Input} ()
+\item 
+\Hypertarget{class_button_a23e8bc9ad05142244ea4e79a406a6c9c}\label{class_button_a23e8bc9ad05142244ea4e79a406a6c9c} 
+void {\bfseries Update} ()
+\item 
+\Hypertarget{class_button_a8b7ad255b72f9fbf23a9b6d31b872c26}\label{class_button_a8b7ad255b72f9fbf23a9b6d31b872c26} 
+void {\bfseries Render} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+\Hypertarget{class_button_a015a36ced32e494dee6a101b239d456e}\label{class_button_a015a36ced32e494dee6a101b239d456e} 
+UI {\bfseries copy} (\mbox{\hyperlink{class_resource_manager}{Resource\+Manager}} rm)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_button_a0b4be5300889197f3e57e7b6530a8acc}\label{class_button_a0b4be5300889197f3e57e7b6530a8acc} 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} {\bfseries texture}
+\item 
+\Hypertarget{class_button_a5e3e5fb3010336f945d9e2fb008377dc}\label{class_button_a5e3e5fb3010336f945d9e2fb008377dc} 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} {\bfseries hover\+\_\+tex}
+\item 
+\Hypertarget{class_button_a3a76ee19f93ba6f0460cba579a2fed71}\label{class_button_a3a76ee19f93ba6f0460cba579a2fed71} 
+SDL\+\_\+\+Rect \texorpdfstring{$\ast$}{*} {\bfseries location}
+\item 
+\Hypertarget{class_button_a9f2c80b737911ad8de25410fe120cbc4}\label{class_button_a9f2c80b737911ad8de25410fe120cbc4} 
+bool {\bfseries hover}
+\item 
+\Hypertarget{class_button_a6cb27e6a51593658ce26f5e3289445e6}\label{class_button_a6cb27e6a51593658ce26f5e3289445e6} 
+Interp\+Context {\bfseries context}
+\item 
+\Hypertarget{class_button_a32f34680a6f592a89ee43c8c98d0057c}\label{class_button_a32f34680a6f592a89ee43c8c98d0057c} 
+uint {\bfseries last} = 0
+\item 
+\Hypertarget{class_button_ae3fc7a23c540e75c1811899d79875eb1}\label{class_button_ae3fc7a23c540e75c1811899d79875eb1} 
+bool \texorpdfstring{$\ast$}{*} {\bfseries active}
+\item 
+\Hypertarget{class_button_a2ec3bc40025b64b44319e7464164d61f}\label{class_button_a2ec3bc40025b64b44319e7464164d61f} 
+int {\bfseries x}
+\item 
+\Hypertarget{class_button_afff35ce0c47f662c3b096e5b644648a5}\label{class_button_afff35ce0c47f662c3b096e5b644648a5} 
+int {\bfseries y}
+\item 
+\Hypertarget{class_button_a137af560188e4fd2c841198d408a84fb}\label{class_button_a137af560188e4fd2c841198d408a84fb} 
+string {\bfseries text}
+\item 
+\Hypertarget{class_button_a0681792bb84fb8d9c3836ea17c4cf819}\label{class_button_a0681792bb84fb8d9c3836ea17c4cf819} 
+string {\bfseries font}
+\item 
+\Hypertarget{class_button_ac7cc4d3fe7516f0131740007f7834290}\label{class_button_ac7cc4d3fe7516f0131740007f7834290} 
+int {\bfseries size}
+\item 
+\Hypertarget{class_button_a4c7545c93d505c98934ebd98fbded4d1}\label{class_button_a4c7545c93d505c98934ebd98fbded4d1} 
+string {\bfseries script}
+\item 
+\Hypertarget{class_button_a0ed0c2b0c13267842cb9a30bec8eda12}\label{class_button_a0ed0c2b0c13267842cb9a30bec8eda12} 
+SDL\+\_\+\+Color {\bfseries default\+\_\+color}
+\item 
+\Hypertarget{class_button_a16e4b0d636a301f8bfecdb4473cfed65}\label{class_button_a16e4b0d636a301f8bfecdb4473cfed65} 
+SDL\+\_\+\+Color {\bfseries hover\+\_\+color}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+source/ui.\+d\end{DoxyCompactItemize}

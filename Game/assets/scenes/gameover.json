@@ -1,0 +1,1 @@
+{"entity":[],"script":"","ui":[{"color":{"b":255,"g":255,"r":255},"font":"pixel","size":100,"text":"gameover","type":"text_static","x":339,"y":157},{"default_color":{"b":255,"g":255,"r":255},"font":"pixel","hover_color":{"b":0,"g":0,"r":255},"script":"redirect_to_game","size":100,"text":"restart","type":"button_text","x":384,"y":257}]}

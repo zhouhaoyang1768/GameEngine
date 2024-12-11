@@ -1,0 +1,109 @@
+{
+    "ui": [
+        {
+            "type" : "text_static",
+            "x" : 100,
+            "y" : 100,
+            "text" : "main",
+            "font" : "pixel",
+            "size" : 64,
+            "color" : {
+                "r" : 255,
+                "g" : 0,
+                "b" : 0
+            }
+        },
+        {
+            "type" : "text_static",
+            "x" : 200,
+            "y" : 200,
+            "text" : "title",
+            "font" : "pixel",
+            "size" : 64,
+            "color" : {
+                "r" : 0,
+                "g" : 0,
+                "b" : 255
+            }
+        },
+        {
+            "type" : "button_text",
+            "x" : 300,
+            "y" : 300,
+            "center" : true,
+            "text" : "start",
+            "font" : "pixel",
+            "size" : 64,
+            "script" : "redirect_to_game",
+            "default_color" : {
+                "r" : 255,
+                "g" : 255,
+                "b" : 255
+            },
+            "hover_color" : {
+                "r" : 255,
+                "g" : 0,
+                "b" : 0
+            }
+        }
+    ],
+    "entity" : [
+        {
+            "id" : "player1",
+            "team" : 0,
+            "lives" : 3,
+            "x" : 600,
+            "y" : 600,
+            "center" : true,
+            "orientation" : 45,
+            "variable_init_script" : "player_vars",
+            "control_script" : "player_control",
+            "collission_script" : "player_collission",
+
+            "texture" : "player"
+        },
+        {
+            
+            "id" : "enemy",
+            "team" : 1,
+            "lives" : 1,
+            "x" : 100,
+            "y" : 100,
+            "center" : true,
+            "orientation" : 315,
+            "control_script" : "enemy_control",
+            "collission_script" : "enemy_collission",
+
+            "texture" : "ufo"
+        },
+        {
+            
+            "id" : "enemy2",
+            "team" : 1,
+            "lives" : 1,
+            "x" : 200,
+            "y" : 100,
+            "center" : true,
+            "orientation" : 315,
+            "control_script" : "enemy_control",
+            "collission_script" : "enemy_collission",
+
+            "texture" : "ufo"
+        },
+        {
+            
+            "id" : "enemy3",
+            "team" : 1,
+            "lives" : 1,
+            "x" : 300,
+            "y" : 100,
+            "center" : true,
+            "orientation" : 315,
+            "control_script" : "enemy_control",
+            "collission_script" : "enemy_collission",
+
+            "texture" : "ufo"
+        }
+    ],
+    "script" : "main_scene_script"
+}

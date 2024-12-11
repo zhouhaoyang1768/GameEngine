@@ -1,0 +1,20 @@
+{
+	"authors": [
+		"Andy Zhou"
+	],
+	"copyright": "'",
+	"dependencies": {
+		"bindbc-sdl": "~>1.2.4",
+		"pyd": "~>0.14.4"
+	},
+	"description": "example game",
+	"license": "proprietary",
+	"name": "game",
+	"versions": [
+		"BindSDL_TTF",
+		"BindSDL_Mixer"
+	],
+	"subConfigurations": {
+		"pyd": "python310"
+	}
+}

@@ -1,0 +1,60 @@
+{
+    "ui": [
+        {
+            "type" : "text_static",
+            "x" : 100,
+            "y" : 100,
+            "text" : "game scene",
+            "font" : "pixel",
+            "size" : 64,
+            "color" : {
+                "r" : 255,
+                "g" : 0,
+                "b" : 0
+            }
+        },
+        {
+            "type" : "button_text",
+            "x" : 300,
+            "y" : 300,
+            "center" : true,
+            "text" : "return to home",
+            "font" : "pixel",
+            "size" : 64,
+            "script" : "redirect_to_main",
+            "default_color" : {
+                "r" : 255,
+                "g" : 255,
+                "b" : 255
+            },
+            "hover_color" : {
+                "r" : 255,
+                "g" : 0,
+                "b" : 0
+            }
+        },
+        {
+            "type" : "button_text",
+            "x" : 400,
+            "y" : 400,
+            "center" : true,
+            "text" : "this button does nothing",
+            "font" : "pixel",
+            "size" : 64,
+            "script" : "example",
+            "default_color" : {
+                "r" : 255,
+                "g" : 255,
+                "b" : 255
+            },
+            "hover_color" : {
+                "r" : 255,
+                "g" : 0,
+                "b" : 0
+            }
+        }
+    ],
+    "entities" : [
+
+    ]
+}

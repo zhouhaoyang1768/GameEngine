@@ -1,0 +1,1 @@
+# addEntity("enemy", 0, 1, 100, 100, True, 315, "player_bullet", "enemy_collission", "ufo")

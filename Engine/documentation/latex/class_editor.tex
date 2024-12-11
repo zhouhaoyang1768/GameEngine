@@ -1,0 +1,100 @@
+\doxysection{Editor Class Reference}
+\hypertarget{class_editor}{}\label{class_editor}\index{Editor@{Editor}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_editor_a156f9d69e700143e5c1c139aeeca467d}\label{class_editor_a156f9d69e700143e5c1c139aeeca467d} 
+void {\bfseries Init} ()
+\item 
+\Hypertarget{class_editor_a3324931bcfc55a1eb7c3660024a67008}\label{class_editor_a3324931bcfc55a1eb7c3660024a67008} 
+void {\bfseries load\+All} ()
+\item 
+\Hypertarget{class_editor_af7362cc3281748da39e31c1aa96cebdf}\label{class_editor_af7362cc3281748da39e31c1aa96cebdf} 
+void {\bfseries unload\+All} ()
+\item 
+\Hypertarget{class_editor_ae56be93f04a5a7f755745a0c5f6fb9c3}\label{class_editor_ae56be93f04a5a7f755745a0c5f6fb9c3} 
+void {\bfseries Check\+Exit} ()
+\item 
+\Hypertarget{class_editor_a26ef80697e0d6d526574af44b8942ab6}\label{class_editor_a26ef80697e0d6d526574af44b8942ab6} 
+bool {\bfseries Scene\+\_\+\+Dfs\+Clean} (Scene\+Node node)
+\item 
+\Hypertarget{class_editor_ad49590ab3e5e023743efb61bc9588c27}\label{class_editor_ad49590ab3e5e023743efb61bc9588c27} 
+void {\bfseries Scene\+\_\+\+Dfs\+Input} (Scene\+Node node)
+\item 
+\Hypertarget{class_editor_abd5de6ab5ec3d02c12ff906dda43938d}\label{class_editor_abd5de6ab5ec3d02c12ff906dda43938d} 
+int {\bfseries Scene\+\_\+\+Dfs\+Update} (Scene\+Node node)
+\item 
+\Hypertarget{class_editor_afed9e65b57210bc6bf287e9640365b53}\label{class_editor_afed9e65b57210bc6bf287e9640365b53} 
+void {\bfseries Scene\+\_\+\+Dfs\+Render} (Scene\+Node node)
+\item 
+\Hypertarget{class_editor_a9747a98a1295cad2529c34a4b6b77f1f}\label{class_editor_a9747a98a1295cad2529c34a4b6b77f1f} 
+void {\bfseries Scene\+\_\+\+Input} ()
+\item 
+\Hypertarget{class_editor_a711334213e273ae31499321e157d60bc}\label{class_editor_a711334213e273ae31499321e157d60bc} 
+void {\bfseries Scene\+\_\+\+Update} ()
+\item 
+\Hypertarget{class_editor_ac665c9e5438d08703cd753fce46be713}\label{class_editor_ac665c9e5438d08703cd753fce46be713} 
+void {\bfseries Render} ()
+\item 
+\Hypertarget{class_editor_aff560102e9f449b192ef57c529bbb33a}\label{class_editor_aff560102e9f449b192ef57c529bbb33a} 
+void {\bfseries run} ()
+\item 
+\Hypertarget{class_editor_a240173c8e25fa8cb97a377ada1d7677b}\label{class_editor_a240173c8e25fa8cb97a377ada1d7677b} 
+void {\bfseries Dfs\+Remove} (Scene\+Node node, string \texorpdfstring{$\ast$}{*}id)
+\item 
+\Hypertarget{class_editor_a2d1fc01665dbd1d673ea8e483056d1dd}\label{class_editor_a2d1fc01665dbd1d673ea8e483056d1dd} 
+void {\bfseries add\+Editor\+UI} ()
+\item 
+\Hypertarget{class_editor_aec06bbcd0dda53a6a104c56f9988c514}\label{class_editor_aec06bbcd0dda53a6a104c56f9988c514} 
+UI {\bfseries Create\+Text\+Button} (string text, int x, int y, void delegate(Interp\+Context) callback, bool \texorpdfstring{$\ast$}{*}active)
+\item 
+\Hypertarget{class_editor_a20e3c86e5b106d029047416535f0835b}\label{class_editor_a20e3c86e5b106d029047416535f0835b} 
+UI {\bfseries Create\+Text\+UI} (string text, int x, int y, bool \texorpdfstring{$\ast$}{*}active)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_editor_ab8a12b6b3af0efbceb785fe129136224}\label{class_editor_ab8a12b6b3af0efbceb785fe129136224} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries window}
+\item 
+\Hypertarget{class_editor_af43b4bb50312dd4358582fa76d9dfd76}\label{class_editor_af43b4bb50312dd4358582fa76d9dfd76} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries renderer}
+\item 
+\Hypertarget{class_editor_a24bb6a7f27ee9ba1b1a96a6bd5ba7d00}\label{class_editor_a24bb6a7f27ee9ba1b1a96a6bd5ba7d00} 
+\mbox{\hyperlink{class_resource_manager}{Resource\+Manager}} {\bfseries resources}
+\item 
+\Hypertarget{class_editor_a5b0e752b10657df7bddbe2528339831c}\label{class_editor_a5b0e752b10657df7bddbe2528339831c} 
+\mbox{\hyperlink{struct_scene}{Scene}} \texorpdfstring{$\ast$}{*} {\bfseries scene}
+\item 
+\Hypertarget{class_editor_a77d6689d5f8bb82e9280e8df702df022}\label{class_editor_a77d6689d5f8bb82e9280e8df702df022} 
+\mbox{\hyperlink{struct_scene}{Scene}} \texorpdfstring{$\ast$}{*} {\bfseries scopy}
+\item 
+\Hypertarget{class_editor_ab7477e2684180d49dcfaf171d911b21f}\label{class_editor_ab7477e2684180d49dcfaf171d911b21f} 
+UI\mbox{[}string\mbox{]} {\bfseries editor\+\_\+ui}
+\item 
+\Hypertarget{class_editor_ac83a3d6277506921e68b82ae13cbd1f8}\label{class_editor_ac83a3d6277506921e68b82ae13cbd1f8} 
+\mbox{\hyperlink{struct_game_attributes}{Game\+Attributes}} \texorpdfstring{$\ast$}{*} {\bfseries attributes}
+\item 
+\Hypertarget{class_editor_a050464d5c54f54a07231a53d0dd21872}\label{class_editor_a050464d5c54f54a07231a53d0dd21872} 
+bool {\bfseries editor\+\_\+running}
+\item 
+\Hypertarget{class_editor_abcf6b10d355262d04482a26d771114d1}\label{class_editor_abcf6b10d355262d04482a26d771114d1} 
+bool {\bfseries scene\+\_\+running}
+\item 
+\Hypertarget{class_editor_ad51f7b713b9e2d6c80ebfc66d6ff1160}\label{class_editor_ad51f7b713b9e2d6c80ebfc66d6ff1160} 
+bool {\bfseries can\+\_\+edit}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_editor_a43360dd72fd6766e685eaca4681891d4}\label{class_editor_a43360dd72fd6766e685eaca4681891d4} 
+static const {\bfseries extra\+\_\+w} = 200
+\item 
+\Hypertarget{class_editor_ac93b8c68b9503311abaab7e6596bee53}\label{class_editor_ac93b8c68b9503311abaab7e6596bee53} 
+static const {\bfseries extra\+\_\+h} = 200
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+source/editor.\+d\end{DoxyCompactItemize}
