@@ -9,7 +9,7 @@ engine.dll
 engine.a
 engine.lib
 engine-test-*
-*.exe
+
 *.pdb
 *.o
 *.obj
